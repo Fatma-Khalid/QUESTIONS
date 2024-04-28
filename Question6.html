@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin-top: 150px;
+            margin-bottom: 150px;
+            border-color: black;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        th, td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table border="2"width = "900"height="500"align="center" >
+       <tr>
+        <th colspan="2"><h2 style="font-weight: 600;">Pizza Shop 2.0</h2></th>
+       </tr>
+        <tr>
+            <td > Name</td>
+            <td><input type="text" style="padding: 8px 70px; border: 1.5px solid black;"></td>
+        </tr>
+         <tr> 
+            <td>Pizza Topping</td>
+            <td><input type="radio" value="Supreme">Supreme<br> <input type="radio" value="Vegetarian">Vegetarian<br> <input type="radio" value="Hawaiian">Hawaiian</td>
+         </tr>
+          <tr>
+            <td>Pizza Source</td>
+            <td><select name="select" id="" style="padding: 10px 50px ;background-color: lightgrey; border-radius: 5px; border: 1.5px solid darkgray; ">
+                <option value="Tomato" selected>Tomato</option>
+                <option value="" >Chilli</option>
+                <option value="">Avocado</option>
+
+            </select></td>
+          </tr>
+           <tr>
+            <td>Optional Extras</td>
+            <td><input type="checkbox" value="Extra cheese">Extra cheese <input type="checkbox" value="Gluten Free Base" >Gluten Free Base</td>
+           </tr>
+            <tr>
+                <td colspan="2">Delivery Instruction:<br> <textarea name="comment" id="" cols="118" rows="7" style="border: 1.5px solid black;"></textarea></td>
+
+            </tr>
+             <tr>
+                <td colspan="2"><input type="submit" value="Send my Order" style="padding: 10px 40px; background-color: lightgrey; border-color: lightgray; border-radius: 5px; margin-left: 6px;"></td>
+             </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th{
+            border: 3px solid;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+
+            
+        }
+        td{
+            border: 3px solid; 
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="4" width="900" height="500" align="center" style="margin-top: 150px;margin-bottom: 150px; border-color: rgb(0, 0, 0);">
+        <tr>
+            <th colspan="4">Table Heading Cell Spanning 4 Columns</th>
+            
+        </tr>
+
+        <tr>
+           <td>Normal Cell</td> 
+           <td colspan="2"> Cell Spanning 2 Columns</td>
+           <td>Normal Cell</td>
+           
+        </tr>
+
+        <tr>
+            <td rowspan="3" style="background-color: gray;">Cell Spanning 3 rows with a <br>grey (US spelling) background</td> 
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+            <td>Normal cell</td>
+        </tr>
+
+        <tr>
+            
+            
+            <td>Normal cell</td>
+            <td rowspan="2" colspan="2">Cell Spanning 2 rows and 2 Columns</td>
+        </tr>
+
+        <tr>
+            
+            
+            <td>Normal cell</td>
+        </tr>
+    </table>
+</body>
+</html>

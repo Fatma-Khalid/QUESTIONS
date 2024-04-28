@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>no 3</title>
+    <style>
+        .words{
+            margin-top: 30px;
+            margin-left: 200px;
+            font-weight: 500;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .words p{
+            font-weight: 900;
+            font-size: 22px;
+        }
+        dd::before{
+            content: "- ";
+        }
+    </style>
+</head>
+<body>
+    <header><h1 style="font-weight: 600; text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">To illustrate Nested and Definition List Tags</h1></header>
+    <hr style="background-color: brown; height: 2px;">
+    <div class="words">
+        <p >An ordered nested list:</p>
+        <ol>
+            <li>Milk</li>
+            <li>Juice</li>
+            
+                <ol type="a">
+                    <li>Mango juice</li>
+                    <li>Lemon juice</li>
+                    
+                        <ol type="i">
+                            <li>India</li>
+                            <li>Canada</li>
+                        </ol>
+                    
+                </ol>
+            
+            <li>Coffe</li>
+            
+        </ol>
+        <p>A Definition list</p>
+        <dl>
+            <dt>Dodoma</dt>
+            <dd>Capital city of Tanzania</dd>
+        </dl>
+        <dl>
+            <dt>Nairobi</dt>
+            <dd>Capital city of Kenya</dd>
+        </dl>
+
+
+    </div>
+</body>
+</html>

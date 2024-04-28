@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <form class="main" style="font-size: 16px; font-weight: bold;">
+    <fieldset style="width: 70%; border: 2px solid black; margin-top: 30px; margin-left: 150px;" >
+        <legend>Academic information</legend>
+        <label for="">Degree:</label>
+        <select name="select" id="" style="padding: 8px 40px; ">
+          <option value="1">Accounting</option>  
+          <option value="2" selected>Master of Business Administration</option>
+          <option value="3">Information Technology</option>
+        </select><br><br>
+        <label for="">Students ID:</label>
+        <input type="text" >
+        <br><br>
+        <label for="">Classes Attended:</label>
+        <select multiple name="select" id="">
+            <option value="">Geography</option>
+            <option value="">English</option>
+            <option value="">Mathematics</option>
+            <option value="">Science</option>
+        </select>
+    </fieldset>
+    <fieldset style="width: 70%; border: 2px solid black; margin-top: 10px; margin-left: 150px;" >
+        <legend >Personal Details </legend>
+        <label for="">First Name:</label>
+        <input type="text"><br><br>
+        <label for="">Last Name:</label>
+        <input type="text"><br><br>
+        <label for="" style="margin-right: 20px;">Gender:</label>
+        Male:<input type="radio" name="Gender" value="Male"  >
+        Female:<input type="radio" name="Gender" value="Female" checked>
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email">
+
+    </fieldset>
+    <textarea name="comment" placeholder="TERMS AND CONDITIONS..." id="" cols="60" rows="8" style="margin-top: 10px;margin-left: 150px;border: 2px solid black;font-weight: 600; font-size: 16px;"></textarea><br><br>
+
+    <input type="submit" value="Send Form" style="margin-left: 160px; padding: 10px 40px; border: 2px solid gray; background-color: gray; font-size: 17px;font-weight: bold; color: rgb(0, 0, 0);">
+    <input type="submit" value="Clear Form" style=" padding: 10px 40px; border: 2px solid gray; background-color: gray; font-size: 17px;font-weight: bold; color: rgb(0, 0, 0);">
+    </form>
+    
+</body>
+</html>
